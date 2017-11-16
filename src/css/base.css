@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-Italic.eot");
+  src: url("../fonts/TitilliumWeb-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-Italic.woff") format("woff"), url("../fonts/TitilliumWeb-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-Bold.eot");
+  src: url("../fonts/TitilliumWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-Bold.woff") format("woff"), url("../fonts/TitilliumWeb-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-SemiBold.eot");
+  src: url("../fonts/TitilliumWeb-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("../fonts/TitilliumWeb-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-Regular.eot");
+  src: url("../fonts/TitilliumWeb-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-Regular.woff") format("woff"), url("../fonts/TitilliumWeb-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-Black.eot");
+  src: url("../fonts/TitilliumWeb-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-Black.woff") format("woff"), url("../fonts/TitilliumWeb-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-BoldItalic.eot");
+  src: url("../fonts/TitilliumWeb-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-BoldItalic.woff") format("woff"), url("../fonts/TitilliumWeb-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-ExtraLightItalic.eot");
+  src: url("../fonts/TitilliumWeb-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-ExtraLightItalic.woff") format("woff"), url("../fonts/TitilliumWeb-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-Light.eot");
+  src: url("../fonts/TitilliumWeb-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-Light.woff") format("woff"), url("../fonts/TitilliumWeb-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-LightItalic.eot");
+  src: url("../fonts/TitilliumWeb-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-LightItalic.woff") format("woff"), url("../fonts/TitilliumWeb-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-SemiBoldItalic.eot");
+  src: url("../fonts/TitilliumWeb-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-SemiBoldItalic.woff") format("woff"), url("../fonts/TitilliumWeb-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url("../fonts/TitilliumWeb-ExtraLight.eot");
+  src: url("../fonts/TitilliumWeb-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/TitilliumWeb-ExtraLight.woff") format("woff"), url("../fonts/TitilliumWeb-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+img {
+  border: 0; }
+
+body {
+  font-family: 'Titillium Web'; }
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  overflow: hidden;
+  margin: auto; }
+
+.header-full {
+  width: 100%;
+  background: #484848;
+  padding: 1.625em 0; }
+
+.header {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+  background: #484848;
+  overflow: hidden; }
+  .header__list {
+    list-style: none; }
+  .header__item {
+    float: left; }
+  .header__link {
+    color: #A4A4A4;
+    text-decoration: none;
+    padding: 0.4375em 0.8125em;
+    display: inline-block; }
+  .header__logo {
+    float: left;
+    text-transform: uppercase;
+    width: 10.9375em;
+    margin-right: 1.25em;
+    border-right: 0.0625em solid #A4A4A4; }
+    .header__logo-img {
+      max-width: 2.375em;
+      color: #A4A4A4;
+      float: left; }
+    .header__logo-name {
+      display: inline-block;
+      font-size: 1em;
+      font-weight: normal;
+      font-style: italic;
+      color: #A4A4A4;
+      margin: 0.4375em 1.25em; }
+
+.subscribe {
+  float: right; }
+  .subscribe__input {
+    background: transparent;
+    border: 0.0625em solid #777777;
+    padding: 0.625em 1.25em;
+    border-radius: 0.1875em;
+    color: #777777; }
+    .subscribe__input::-webkit-input-placeholder {
+      color: #777777; }
+  .subscribe__button {
+    background: transparent;
+    border: 0.0625em solid #B2B2B2;
+    color: #FFFFFF;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0.625em;
+    border-radius: 0.1875em;
+    margin-left: -4px; }
+
+.banner {
+  background: url("../assets/chamada-background.png") 100%;
+  background-size: cover;
+  padding: 6.25em 0; }
+  .banner__box {
+    padding-left: 5em; }
+  .banner__category {
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic; }
+  .banner__title {
+    color: #FFFFFF; }
+  .banner__link {
+    color: #EF6D00;
+    text-decoration: none;
+    border: solid 0.125em #EF6D00;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic;
+    display: inline-block;
+    padding: 0.125em 0.625em;
+    border-radius: 0.3125em;
+    margin-top: 0.625em; }

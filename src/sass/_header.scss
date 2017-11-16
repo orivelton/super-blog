@@ -1,0 +1,75 @@
+.header-full {
+    width: 100%;
+    background: $charcoal;
+    padding: em(26) 0;
+}
+.header {
+    width: 100%;
+    max-width: $screen-max;
+    margin: auto;
+    background: $charcoal;
+    overflow: hidden;
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        float: left;
+    }
+
+    &__link {        
+        color: $dark-gray;
+        text-decoration: none;
+        padding: em(7) em(13);
+        display: inline-block;
+    }
+
+    &__logo {
+        float: left;
+        text-transform: uppercase;
+        width: em(175);
+        margin-right: em(20);
+        border-right: em(1) solid $dark-gray;
+        &-img {
+            max-width: em(38);
+            color: $dark-gray;
+            float: left;
+        }
+
+        &-name {
+            display: inline-block;            
+            font-size: em(16);
+            font-weight: normal;
+            font-style: italic;
+            color: $dark-gray;
+            margin: em(7) em(20);
+        }
+    }
+}
+
+.subscribe {
+    float: right;
+    &__input {
+        background: transparent;
+        border: em(1) solid $grey;
+        padding: em(10) em(20);
+        border-radius: em(3);
+        color: $grey;
+        &::-webkit-input-placeholder {
+            color: $grey;
+        }
+    }
+
+    &__button {
+        background: transparent;
+        border: em(1) solid $pink-swan;
+        color: $white;
+        font-size: em(12);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-style: italic;
+        padding: em(10);
+        border-radius: em(3);
+        margin-left: -4px;
+    }
+}
