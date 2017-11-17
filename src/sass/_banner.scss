@@ -1,0 +1,35 @@
+.banner {
+    background: url('../assets/chamada-background.png') 100%;
+    background-size: cover;
+    padding: em(100) 0;    
+    &__box {
+        padding-left: em(80);
+        @media (max-width: $screen-xs) {
+            padding: 0 2%;
+        }
+    }
+    
+    &__category {
+        color: $grey;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    &__title {
+        color: $white;
+    }
+
+    &__link {
+        color: $mango-tango;
+        text-decoration: none;
+        border: solid em(2) $mango-tango;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-style: italic;
+        display: inline-block;
+        padding: em(2) em(10);
+        border-radius: em(5);
+        margin-top: em(10);
+    }
+}
