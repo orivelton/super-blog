@@ -1,9 +1,12 @@
 .banner {
     background: url('../assets/chamada-background.png') 100%;
     background-size: cover;
-    padding: em(100) 0;
+    padding: em(100) 0;    
     &__box {
         padding-left: em(80);
+        @media (max-width: $screen-xs) {
+            padding: 0 2%;
+        }
     }
     
     &__category {

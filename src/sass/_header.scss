@@ -1,7 +1,11 @@
 .header-full {
     width: 100%;
     background: $charcoal;
-    padding: em(26) 0;
+    padding: em(26) 0 ;
+    @media (max-width: $screen-sm) {
+        width: 98%;
+        padding: em(16) 1%;
+    }
 }
 .header {
     width: 100%;
@@ -9,12 +13,34 @@
     margin: auto;
     background: $charcoal;
     overflow: hidden;
+
+    @media (max-width: $screen-max) {
+        width: 98%;
+        padding: 0 1%;
+    }
+
     &__list {
-        list-style: none;
+        @media (max-width: $screen-xs) {
+            display: none;
+        }
     }
 
     &__item {
         float: left;
+        list-style: none;        
+        @media (max-width: $screen-xs) {
+            width: 100%;
+        }
+    }
+
+    &__menu-mobile {
+        display: none;
+        @media (max-width: $screen-xs) {
+            display: block;
+            color: $white;
+            font-size: em(26);
+            float: right;
+        }
     }
 
     &__link {        
@@ -22,6 +48,10 @@
         text-decoration: none;
         padding: em(7) em(13);
         display: inline-block;
+        @media (max-width: $screen-xs) {
+            width: 100%;
+            padding: 1%;
+        }
     }
 
     &__logo {
@@ -34,6 +64,9 @@
             max-width: em(38);
             color: $dark-gray;
             float: left;
+        }
+        @media (max-width: $screen-xs) {
+            border: 0;
         }
 
         &-name {
@@ -49,6 +82,10 @@
 
 .subscribe {
     float: right;
+    @media (max-width: $screen-xs) {
+        display: none;
+        float: left;
+    }
     &__input {
         background: transparent;
         border: em(1) solid $grey;
@@ -57,6 +94,10 @@
         color: $grey;
         &::-webkit-input-placeholder {
             color: $grey;
+        }
+
+        @media (max-width: $screen-sm) {
+            width: em(170);
         }
     }
 
