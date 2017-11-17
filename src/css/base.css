@@ -259,7 +259,7 @@ body {
       color: #FFFFFF; }
     .filter__item:hover .filter__link {
       display: none; }
-    .filter__item:hover .filter__link--top {
+    .filter__item:hover .filter__link--top, .filter__item:hover .filter__descrition--bottom {
       display: block; }
     .filter__item:hover::before {
       content: '';
@@ -277,9 +277,18 @@ body {
     font-weight: 600;
     font-style: italic;
     text-transform: uppercase;
-    font-size: 0.8125em; }
+    font-size: 0.8125em;
+    text-align: left; }
   .filter__descrition {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    text-align: left; }
+    .filter__descrition--bottom {
+      font-size: 0.75em;
+      width: 90%;
+      border-top: 0.0625em solid #FFFFFF;
+      margin-top: 1.25em;
+      padding-top: 1.25em;
+      display: none; }
   .filter__link {
     color: #FFFFFF;
     text-decoration: none;
