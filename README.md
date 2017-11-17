@@ -7,8 +7,6 @@ Fazendo funcionar
 - npm i
 - gulp
 
-Para compilar o SASS com a sintax SCSS
-
 #HTML
 
 HTML validado no w3C
