@@ -15,7 +15,7 @@ HTML validado no w3C
 
 Foi utilizado o pré processador SASS com a sintax SCSS e não foi utilizado framework css pelo fato do projeto ser bem pequeno.
 
-JavaScript
+#JavaScript
 
 Feito com Javascript puro para uma interação no menu no mobile.
 
