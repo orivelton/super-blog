@@ -51,7 +51,7 @@
                 display: none;
             }
 
-            .filter__link--top {
+            .filter__link--top, .filter__descrition--bottom {
                 display: block;
             }
 
@@ -78,10 +78,20 @@
         font-style: italic; 
         text-transform: uppercase;
         font-size: em(13);
+        text-align: left;
     }
 
     &__descrition {
         color: $white;
+        text-align: left;
+        &--bottom {
+            font-size: em(12);
+            width: 90%;
+            border-top: em(1) solid $white;
+            margin-top: em(20);
+            padding-top: em(20);
+            display: none;
+        }
     }
 
     &__link {
